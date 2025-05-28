@@ -38,5 +38,19 @@
             Assert.False(result);
         }
 
+
+        [Fact]
+        public void isPalindrome_verifyNullString_returnFalse()
+        {
+            // arrange
+            string nullString = null;
+
+            //act
+            var result = PalindromeVerifier.isPalindrome(nullString);
+
+            //assert
+            Assert.False(result);
+        }
+
     }
 }

@@ -10,6 +10,8 @@ namespace Palindrome
     {
         public static Boolean isPalindrome(string value)
         {
+            if (String.IsNullOrEmpty(value)) return false;
+
             string resultString = "";
 
             foreach(char c in value)
