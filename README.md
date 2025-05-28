@@ -2,4 +2,4 @@ Projekt oparty o jedno z zadań rekrutacyjnych przedstawionych na kanale pana Ma
 
 === ZADANIE ===
 
-Napisz funkcję do sprawdzania poprawności rozmieszenia nawiasów oraz ich domknięć.
+Napisz funkcję do sprawdzania czy dane słowo/zdanie jest palindromem.
